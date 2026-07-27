@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'sriracha';
+    src: url(fontes/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family:'passion one';
+    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor-fundo: lightgray;
+    --cor-header-footer: #1f1f1f;
+    --cor-texto-header-footer: yellow;
+    --cor-link: rgb(132, 0, 255);
+    --cor-link-ativo: rgb(183, 116, 247);
+    --fonte-1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-2: passion one, cursive;
+    --fonte-3: sriracha, cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html,body {
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+header{
+    background-color: var(--cor-header-footer);
+    color: var(--cor-texto-header-footer);
+    padding-bottom: 2.5em;
+    text-align: center;
+    padding-top: 1.5em;
+   
+}
+
+header h1{
+    
+    font-variant: small-caps;
+    font-size: 6.9vw;
+    font-family: var(--fonte-2);
+
+    
+}
+header p{
+    color: white;
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+header a,footer a{
+    color: var(--cor-link);
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+header a:hover,footer a:hover{
+    text-decoration: underline;
+    color: var(--cor-link-ativo);
+    
+}
+
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 50px;
+    font-family: var(--fonte-3);
+    font-size: 1.3em;
+}
+
+section p{
+    padding: 1.5em;
+    font-size: 1.2em;
+    
+
+}
+
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    background-color: #1f1f1f;
+    color:white
+
+    
+    
+    
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.290);
+    padding: 20px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+#img1{
+background-image: url(imagens/background001.jpg);
+background-repeat: no-repeat;
+background-position: right center;
+
+
+
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: left center;
+
+
+}
+
+footer{
+    background-color: var(--cor-header-footer);
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+abbr{
+    text-decoration:underline 0.5px yellow ;
+}
+
+abbr a{
+    font-size: 1.2em;
+}
+
