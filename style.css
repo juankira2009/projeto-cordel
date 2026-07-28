@@ -95,7 +95,7 @@ section.normal{
 section.imagem{
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
     background-color: #1f1f1f;
     color:white
 
@@ -105,7 +105,7 @@ section.imagem{
 }
 
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.290);
+    background-color: rgba(0, 0, 0, 0.438);
     padding: 20px;
     display: inline-block;
     text-shadow: 1px 1px 0px black;
